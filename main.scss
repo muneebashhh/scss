@@ -1,0 +1,76 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container{
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  h1{
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'abalumo', kaniit,poppins;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    
+    &:hover{
+      flex: 7;
+    }
+  }
+  
+  .item-1 { 
+    background-image: url('1.jpg');
+  }
+  
+  .item-2 { 
+    background-image: url('2.jpg');
+  }
+  
+  .item-3 { 
+    background-image: url('3.jpg');
+  }
+  
+  .item-4 { 
+    background-image: url('https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/tile/Apple-iPhone-15-Pro-lineup-hero-230912.jpg.news_app_ed.jpg');
+  }
+  
+  .item-5 { 
+    background-image: url('https://vmart.pk/wp-content/uploads/2021/06/Realme-Buds-Q2-Black-10.jpg');
+  }
+  .item-6 { 
+    background-image: url('https://watchcentre.pk/wp-content/uploads/2019/05/by5144-automatic-chain-analog.jpg');
+  }
+  
+  
+  
+  .social{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    
+    img{
+      display: block;
+      width: 32px;
+    }
+  }
